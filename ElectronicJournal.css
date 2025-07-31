@@ -1,0 +1,79 @@
+.journal-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+.journal-header {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.journal-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.journal-toolbar-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.journal-error {
+  background: #ff5b5b;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.journal-error-icon {
+  font-size: 22px;
+  margin-right: 6px;
+  font-weight: bold;
+}
+.journal-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.journal-table th, .journal-table td {
+  border: 1px solid #e2e2e2;
+  padding: 6px 7px;
+  text-align: center;
+}
+.journal-input {
+  width: 36px;
+  height: 32px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border 0.2s;
+}
+.journal-input:focus {
+  border: 1.5px solid #1976d2;
+  outline: none;
+}
+.journal-absence {
+  font-size: 18px;
+  background: #f7f9fa;
+}
+.journal-tooltip {
+  position: fixed;
+  background: #082c4c;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  z-index: 9999;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,.09);
+  pointer-events: none;
+}
